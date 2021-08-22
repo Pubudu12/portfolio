@@ -3,29 +3,43 @@ import Header from '../../components/navbar/Navbar';
 import { Canvas,useFrame } from '@react-three/fiber';
 import './style.css'
 import { OrbitControls } from '@react-three/drei';
+import Moon from '../../images/home/moon.jpg';
+import { MeshStandardMaterial, Points, SphereGeometry } from 'three';
 
-function animate(e) {
-    console.log(e)
-    
-    requestAnimationFrame(animate)
-    // e.rotation.x += 0.01;
-    // e.rotation.y += 0.01;
-    // e.rotation.z += 0.01;
-
+function Stars() {
+    return(
+        <mesh>
+            <sphereGeometry attach="geometry"/>
+            <meshBasicMaterial attach="material"/>
+        </mesh>
+    )
 }
+
+function AnimateCanvas() {
+    console.log('called')
+    return(
+        <Canvas camera={{position:[100,10,0]}}>
+            <Stars/>
+        </Canvas>
+    )
+}
+
+// function addStars() {
+//     const spere = SphereGeometry(0.25,24,24);
+//     const material = MeshStandardMaterial({color:'red'});
+
+//     const [x,y,z] = Array(3).fill().map(()=>MathUtils.randFloatSpread(100));
+//     // outside
+//     array(200).fill().array.forEach(element => {
+//         addStars()
+//     });
+// }
 
 export default function Home() {
     return(
         <>
             <Header />
-            <Canvas>
-                <mesh>
-                    <torusGeometry attach="geometry" args={[8,3,18,100]}/>
-                    <meshBasicMaterial attach="material" color="#f57408" />
-                    <ambientLight ></ambientLight>
-                </mesh>
-                <OrbitControls></OrbitControls>
-            </Canvas>
+            <AnimateCanvas />
         </>
     )
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './style';
+import './style.css';
 
 function Header() {
     return(
-        <div className="d-flex p-3">
+        <div className="header-position d-flex p-3">
             <div className="d-none d-md-flex flex-grow flex-grow-1">
                 <Link to="/">
                     <div className="justify-content-start">

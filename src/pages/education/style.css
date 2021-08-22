@@ -1,0 +1,13 @@
+.banner-img-outer{
+    width: 100%;
+    height: auto;
+}
+
+.banner-img{
+    background-image: url('../../images/education/edu.jpg');
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
