@@ -5,9 +5,26 @@
 
 .banner-img{
     background-image: url('../../images/education/edu.jpg');
-    height: 100vh;
+    height: 80vh;
     position: relative;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.content{
+    padding: 60px 0;
+}
+
+.short-line{
+    border-top: 2px solid #e03f4d;
+    margin-top: 20px;
+}
+
+.tf-weight{
+    font-size: calc(1.325rem + .9vw);
+}
+
+.usf-weight{
+    font-size: 17px;
 }
