@@ -4,6 +4,7 @@ import { Canvas,useFrame } from '@react-three/fiber';
 import './style.css'
 import { OrbitControls } from '@react-three/drei';
 import Moon from '../../images/home/moon.jpg';
+import Footer from '../../components/footer/Footer';
 import { MeshStandardMaterial, Points, SphereGeometry } from 'three';
 
 function Stars() {
@@ -40,6 +41,7 @@ export default function Home() {
         <>
             <Header />
             <AnimateCanvas />
+            <Footer/>
         </>
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../components/navbar/Navbar';
+import Footer from '../../components/footer/Footer';
 import './style.css';
 
 export default function Education() {
@@ -121,6 +122,7 @@ export default function Education() {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </>
     )

@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../components/navbar/Navbar';
-import './style.css'
+import './style.css';
+import Footer from '../../components/footer/Footer';
 
 export default function Experience() {
     return (
@@ -121,6 +122,7 @@ export default function Experience() {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </>
     )
