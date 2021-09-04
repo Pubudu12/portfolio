@@ -1,5 +1,5 @@
 .header-position{
-    position: absolute;
+    position: fixed;
     z-index: 999;
 }
 
@@ -12,3 +12,9 @@
 .link-style:hover{
     color: white;
 }
+
+.navbar {
+    background-color: transparent !important;
+    z-index: 900;
+    /* position: fixed; */
+  }

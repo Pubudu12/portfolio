@@ -7,12 +7,10 @@ export default function Experience() {
     return (
         <>  
             <div className="education">
-                <Header />
-                <div className="banner-img-outer">
-                    <div className="banner-img">
-                        <div className="banner-txt">
-                            <h1>Test Text</h1>
-                        </div>
+                <div className="banner-img">
+                    <Header />
+                    <div className="banner-txt">
+                        <h1 className="fontLeague">Test Text</h1>
                     </div>
                 </div>
                 <div className="content">

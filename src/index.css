@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
+
 body {
   margin: 0;
   font-family: 'Roboto Slab', serif;
@@ -11,12 +12,17 @@ code {
   /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace; */
 }
-
+@font-face {
+  font-family: 'LeagueSpartan-Bold';
+  src: local('League Spartan Bold'), local('LeagueSpartan-Bold'),
+        url("./fonts/LeagueSpartan-Bold.otf") format('truetype');
+}
 *{
   box-sizing: border-box;
 }
 
 html,body,#root{
+  position: relative;
   overflow-x: hidden;
   padding: 0;
   margin: 0;
@@ -34,5 +40,9 @@ html,body,#root{
 
 .pink{
   color: #e03f4d;
+}
+
+.fontLeague{
+  font-family: 'LeagueSpartan-Bold';
 }
 

@@ -28,3 +28,17 @@
 .usf-weight{
     font-size: 17px;
 }
+
+.navbar {
+    background-color: transparent !important;
+    z-index: 900;
+  }
+  
+  .bgimg {
+    height: 300px;
+    position: absolute;
+    top:0;
+    left:0;
+    background-image: url('https://images.unsplash.com/photo-1473923377535-0002805f57e8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d239ac0e409e18cf74ace503c491714f&auto=format&fit=crop&w=1469&q=80');
+    
+  }
