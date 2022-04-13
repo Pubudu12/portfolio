@@ -7,9 +7,9 @@ export default function Footer() {
             <div className="text-center">
                 <h6>Pubudu Senadheera</h6>
                 <div>
-                    <div className="footer-icon"><i class="fab fa-linkedin"></i></div>
-                    <div className="footer-icon"><i class="fas fa-envelope"></i></div>
-                    <div className="footer-icon"><i class="fas fa-phone"></i></div>
+                    <div className="footer-icon"><i class="fa fa-linkedin"></i></div>
+                    <div className="footer-icon"><i class="fa fa-envelope"></i></div>
+                    <div className="footer-icon"><i class="fa fa-phone"></i></div>
                 </div>
             </div>
         </div>

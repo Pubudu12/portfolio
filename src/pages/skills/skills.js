@@ -4,6 +4,7 @@ import './style.css';
 import ProgressBar from '@ramonak/react-progress-bar';
 import CSSIMG from '../../images/skill/icons/css.svg';
 import Footer from '../../components/footer/Footer';
+import ReactSparkle from "react-sparkle";
 
 export default function Skills() {
     return (
@@ -145,6 +146,18 @@ export default function Skills() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="">
+                    <ReactSparkle 
+                     color="red"
+                     count={20}
+                     minSize={7}
+                     maxSize={12}
+                     overflowPx={80}
+                     fadeOutSpeed={30}
+                     flicker={false}
+                    />
+                    
                 </div>
                 <Footer/>
             </div>

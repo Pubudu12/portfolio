@@ -1,0 +1,6 @@
+.box {
+    position: absolute; /* mandatory */
+    background: url('./img.jpg');
+    width: 100%;
+    height: 80vh;
+  }

@@ -16,7 +16,7 @@ const Routes =()=>{
                 <Route path="/education" component={Education}/>
                 <Route path="/contact_me" component={Contact}/>
                 <Route path="/experiences" component={Experience}/>
-                {/* <Route path="/test" component={test}/> */}
+                
             </Switch>
         </>
     )
